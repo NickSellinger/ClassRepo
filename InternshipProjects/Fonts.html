@@ -1,0 +1,40 @@
+<div id="inputs">
+  <div class="font">
+			<button onclick="changeFont()">Font-family:</button>
+			<select type="text" id="fontSelect">
+  			<option value="Papyrus">"Papyrus"</option>
+  			<option value="Arial">"Arial"</option>
+  			<option value="Times New Roman">"Times New Roman"</option>
+  			<option value="Courier New">"Courier New"</option>
+    	</select>
+    <b> ; </b>
+ </div>
+ <div class="size">
+		<button onclick="submit()">Font-size:</button>
+		<input type="text" id="text-size" size="14">
+    <select type="text" id="sizeFormat">
+      <option value="px">px</option>
+      <option value="em">em</option>
+      <option value="%">%</option>
+    </select>
+    <b> ; </b> 
+ </div>
+ </div>
+  
+<br/>
+<section>
+  <p>I stay the same!</p>
+  <p  id="modified-text">Change Me!</p>
+</section>
+  
+<section id = "displayBlock">
+  #modified-text
+	{
+  <p id="font-display"> 
+  Font-family: "Times New Roman";
+  </p>
+  <p id="size-display">
+  Font-size: 16px;
+  </p>
+  }
+</section>
